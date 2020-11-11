@@ -1,12 +1,12 @@
 {
   "name": "usa-state-legislatures",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This package will return various information about a given state legislature- including number of members, term length, and party division.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint *.js ",
-    "lintfix": "eslint ** --fix",
+    "lintfix": "eslint *.js --fix",
     "coverage": "jest --coverage",
     "coveralls": "jest --coverage && coveralls < coverage/lcov.info"
   },
