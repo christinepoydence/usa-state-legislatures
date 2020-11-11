@@ -1,6 +1,8 @@
 const termLimits = require("./src/termLimits");
+const stateLegislatures = require('./src/stateLegislatures');
 
 module.exports = {
-    termLimits: require('./src/termLimits'),
-    stateLegislatures: require('./src/stateLegislatures')
+    termLimits,
+    stateLegislatures
 };
+

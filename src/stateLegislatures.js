@@ -24,10 +24,28 @@ const stateLegislatureTermLength = (stateName) => {
         [stateDetails.upperHouse.name]: stateDetails.upperHouse.term,
         [stateDetails.lowerHouse.name]: stateDetails.lowerHouse.term
     }
+};
+
+const stateLegislatureTermLengthByChamber = (stateName, chamber) => {
+    if (typeof chamber=== 'string' || chamber instanceof String){
+        chamber = chamber.trim().toLowerCase();
+    }else {
+        throw new Error(`${typeof chamber} is not a valid type for chamber. Input must be a string.`)
+    }
+    const stateDetails = retrieveStateDetails(stateName);
+    if(chamber === 'senate' || chamber === 'upper' || chamber === stateDetails.upperHouse.name.toLowerCase()){
+        return stateDetails.upperHouse.term
+    }else if(chamber === 'house' || chamber === 'lower' || chamber === stateDetails.lowerHouse.name.toLowerCase()){
+        return stateDetails.lowerHouse.term
+    }else{
+        throw new Error(`${chamber} is not a valid state legislative chamber for ${stateDetails.state}. Please enter either '${stateDetails.lowerHouse.name}' (can also use 'House') or '${stateDetails.upperHouse.name}' (can also use 'Senate').`)
+    }
+   
 }
 module.exports = {
     stateLegislatureName,
     stateLegislatureMembers,
-    stateLegislatureTermLength
+    stateLegislatureTermLength,
+    stateLegislatureTermLengthByChamber
 }
     

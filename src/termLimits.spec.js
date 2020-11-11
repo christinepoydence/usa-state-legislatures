@@ -28,7 +28,7 @@ describe('doesStateHaveTermLimits', () => {
         const result = doesStateHaveTermLimits('TX');
         expect(result).toEqual(false);
     });
-    it('shouldthrow an erro when an invalid state is passed.', () => {
+    it('should throw an error when an invalid state is passed.', () => {
         try{
             let didThrow = false;
             const result = doesStateHaveTermLimits('NotAState');
