@@ -1,0 +1,753 @@
+[
+    {
+        "state": "Alabama",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 104,
+            "term": 4
+
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 35,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Alaska",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 40,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 20,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Arizona",
+        "legislatureName": "State Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 60,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 30,
+            "term": 2
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Arkansas",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 103,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 35,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "California",
+        "legislatureName": "State Legislature",
+        "lowerHouse": {
+            "name": "State Assembly",
+            "memberCount": 80,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 40,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Colorado",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 65,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 35,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Connecticut",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 151,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 36,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Delaware",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 41,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 21,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Florida",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 120,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 40,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Georgia",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 180,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 56,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Hawaii",
+        "legislatureName": "State Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 51,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 25,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Idaho",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 70,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 35,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Illinois",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 118,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 59,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Indiana",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 100,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 50,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Iowa",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 100,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 50,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Kansas",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 125,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 40,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Kentucky",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 100,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 38,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Louisiana",
+        "legislatureName": "State Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 105,
+            "term": 4
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 39,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Maine",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 151,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 35,
+            "term": 2
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Maryland",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Delegates",
+            "memberCount": 141,
+            "term": 4
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 47,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Massachusetts",
+        "legislatureName": "General Court",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 160,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 40,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Michigan",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 110,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 38,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Minnesota",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 134,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 67,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Mississippi",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 122,
+            "term":4
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 52,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Missouri",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 163,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 34,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Montana",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 100,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 50,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Nebraska",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "N/A",
+            "memberCount": 0,
+            "term": 0
+        },
+        "upperHouse": {
+            "name": "Legislature",
+            "memberCount": 49,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Nevada",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "Assembly",
+            "memberCount": 42,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 21,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "New Hampshire",
+        "legislatureName": "General Court",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 400,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 24,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "New Jersey",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "General Assembly",
+            "memberCount": 80,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 40,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "New Mexico",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 70,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 42,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "New York",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "State Assembly",
+            "memberCount": 150,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 63,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "North Carolina",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 120,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 50,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "North Dakota",
+        "legislatureName": "Legislative Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 94,
+            "term": 4
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 47,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Ohio",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 99,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 33,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Oklahoma",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 101,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 48,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "Oregon",
+        "legislatureName": "Legislative Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 60,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 30,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Pennsylvania",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 203,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 50,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Rhode Island",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 75,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 38,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "South Carolina",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 124,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 46,
+            "term": 4
+        },
+        "hasTermLimits": true
+    },
+    {
+        "state": "South Dakota",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 70,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 35,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Tennessee",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 99,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 33,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Texas",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 150,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 31,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Utah",
+        "legislatureName": "State Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 75,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 29,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Vermont",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 150,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 30,
+            "term": 2
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Virginia",
+        "legislatureName": "General Assembly",
+        "lowerHouse": {
+            "name": "House of Delegates",
+            "memberCount": 100,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 40,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Washington",
+        "legislatureName": "State Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 98,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 49,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "West Virginia",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Delegates",
+            "memberCount": 100,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 34,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Wisconsin",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "State Assembly",
+            "memberCount": 99,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "State Senate",
+            "memberCount": 33,
+            "term": 4
+        },
+        "hasTermLimits": false
+    },
+    {
+        "state": "Wyoming",
+        "legislatureName": "Legislature",
+        "lowerHouse": {
+            "name": "House of Representatives",
+            "memberCount": 60,
+            "term": 2
+        },
+        "upperHouse": {
+            "name": "Senate",
+            "memberCount": 30,
+            "term": 4
+        },
+        "hasTermLimits": false
+    }
+]
