@@ -5,164 +5,146 @@ const {
     stateLegislatureTermLengthByChamber
 } = require('./stateLegislatures');
 
-describe('stateLegislatureName', () => {
-    it('should return the names of the state legislature when a valid state name is passed', () => {
-        const result = stateLegislatureName("ohio");
-        expect(result).toEqual(
-            {
-                "legislatureName": "General Assembly", 
-                "lowerHouse": "House of Representatives", 
-                "upperHouse": "Senate"
-            });
+describe('State Legislature Info', () => {
+
+    const stateLegislatureData = [
+        {
+            input: {name: 'ohio', abbr: 'oh'},
+            expectedResult: {
+                legislatureName:{
+                    "legislatureName": "General Assembly", 
+                    "lowerHouse": "House of Representatives", 
+                    "upperHouse": "Senate"
+                },
+                legislatureMembers: {
+                    "House of Representatives": 99,
+                    "Senate": 33
+                },
+                legislatureTermLength: {
+                    "House of Representatives": 2,
+                    "Senate": 4
+                }
+            }
+        }
+    ];
+    
+    const errorStateLegislatureData = [
+        stateLegislatureName, stateLegislatureMembers, stateLegislatureTermLength
+    ];
+
+    test.each(stateLegislatureData)('state legislature information is returned successfully - name, member count, and term length',(data) =>{
+        expect(stateLegislatureName(data.input.abbr)).toEqual(data.expectedResult.legislatureName);
+        expect(stateLegislatureName(data.input.name)).toEqual(data.expectedResult.legislatureName);
+
+        expect(stateLegislatureMembers(data.input.abbr)).toEqual(data.expectedResult.legislatureMembers);
+        expect(stateLegislatureMembers(data.input.name)).toEqual(data.expectedResult.legislatureMembers);
+
+        expect(stateLegislatureTermLength(data.input.abbr)).toEqual(data.expectedResult.legislatureTermLength);
+        expect(stateLegislatureTermLength(data.input.name)).toEqual(data.expectedResult.legislatureTermLength);      
+           
     });
-    it('should return the names of the state legislature when a valid state abbreviation is passed', () => {
-        const result = stateLegislatureName("oh");
-        expect(result).toEqual(
-            {
-                "legislatureName": "General Assembly", 
-                "lowerHouse": "House of Representatives", 
-                "upperHouse": "Senate"
-            });
-    });
-    it('should throw an error when an invalid state is passed.', () => {
+
+    test.each(errorStateLegislatureData)('when an invalid state is passed, the correct error is thrown',(functionName) =>{
+        let didThrow = false;
         try{
-            let didThrow = false;
-            const result = stateLegislatureName("NotAState");
+            const result = functionName("NotAState");
         }catch(error){
             didThrow = true;
             expect(error).toEqual(Error("NotAState is not a valid USA state or USA state abbreviation."));
         }
-        
+            
         expect(didThrow).toEqual(true);
+           
     });
-});
-
-describe('stateLegislatureMembers', () => {
-    it('should return the member count of the state legislature when a valid state name is passed', () => {
-        const result = stateLegislatureMembers("ohio");
-        expect(result).toEqual(
-            {
-                "House of Representatives": 99,
-                "Senate": 33
-            });
-    });
-    it('should return the member count of the state legislature when a valid state abbreviation is passed', () => {
-        const result = stateLegislatureMembers("oh");
-        expect(result).toEqual(
-            {
-                "House of Representatives": 99,
-                "Senate": 33
-            });
-    });
-    it('should throw an error when an invalid state is passed.', () => {
-        try{
-            let didThrow = false;
-            const result = stateLegislatureMembers("NotAState");
-        }catch(error){
-            didThrow = true;
-            expect(error).toEqual(Error("NotAState is not a valid USA state or USA state abbreviation."));
-        }
-        
-        expect(didThrow).toEqual(true);
-    });
-});
-
-describe('stateLegislatureTermLength', () => {
-    it('should return the term length of the state legislature when a valid state name is passed', () => {
-        const result = stateLegislatureTermLength("ohio");
-        expect(result).toEqual(
-            {
-                "House of Representatives": 2,
-                "Senate": 4
-            });
-    });
-    it('should return the term length of the state legislature when a valid state abbreviation is passed', () => {
-        const result = stateLegislatureTermLength("oh");
-        expect(result).toEqual(
-            {
-                "House of Representatives": 2,
-                "Senate": 4
-            });
-    });
-    it('should throw an error when an invalid state is passed.', () => {
-        try{
-            let didThrow = false;
-            const result = stateLegislatureTermLength("NotAState");
-        }catch(error){
-            didThrow = true;
-            expect(error).toEqual(Error("NotAState is not a valid USA state or USA state abbreviation."));
-        }
-        
-        expect(didThrow).toEqual(true);
-    });
-
 });
 
 describe('stateLegislatureTermLengthByChamber', () => {
-    it('should return the term length of the upper house of the state legislature when a valid state name is passed and senate is passed', () => {
-        const result = stateLegislatureTermLengthByChamber("ohio", 'senate');
-        expect(result).toEqual(4);
-    });
+    const termLengthData = [
+        {
+            input: {
+                state: 'ohio',
+                chamber: 'senate'
+            },
+            expectedResult: 4
+        },
+        {
+            input: {
+                state: 'ohio',
+                chamber: 'house'
+            },
+            expectedResult: 2
+        },
+        {
+            input: {
+                state: 'ohio',
+                chamber: 'upper'
+            },
+            expectedResult: 4
+        },
+        {
+            input: {
+                state: 'ohio',
+                chamber: 'lower'
+            },
+            expectedResult: 2
+        },
+        {
+            input: {
+                state: 'WI',
+                chamber: 'state senate'
+            },
+            expectedResult: 4
+        },
+        {
+            input: {
+                state: 'VA',
+                chamber: 'House of Delegates '
+            },
+            expectedResult: 2
+        }
+    ];
+    
+    const errorTermLengthData = [
+        {
+            input: {
+                state: 'ohio',
+                chamber: 123
+            },
+            expectedResult: Error("number is not a valid type for chamber. Input must be a string.")
+        },
+        {
+            input: {
+                state: 'ohio',
+                chamber: 'typo'
+            },
+            expectedResult:Error("typo is not a valid state legislative chamber for Ohio. Please enter either 'House of Representatives' (can also use 'House') or 'Senate' (can also use 'Senate').")
+        },
+        {
+            input: {
+                state: 'NotAState',
+                chamber: 'upper'
+            },
+            expectedResult: Error("NotAState is not a valid USA state or USA state abbreviation.")
+        }
+    ];
+    
 
-    it('should return the term length of the lower house of the state legislature when a valid state name is passed and house is passed', () => {
-        const result = stateLegislatureTermLengthByChamber("ohio", 'house');
-        expect(result).toEqual(2);
-    });
+    test.each(termLengthData)('term limit information by chamber is returned successfully',(data) =>{
+        expect(stateLegislatureTermLengthByChamber(data.input.state, data.input.chamber)).toEqual(data.expectedResult);   
+    }); 
 
-    it('should return the term length of the upper house of the state legislature when a valid state name is passed and upper is passed', () => {
-        const result = stateLegislatureTermLengthByChamber("ohio", 'upper');
-        expect(result).toEqual(4);
-    });
-
-    it('should return the term length of the lower house of the state legislature when a valid state name is passed and lower is passed', () => {
-        const result = stateLegislatureTermLengthByChamber("ohio", 'lower');
-        expect(result).toEqual(2);
-    });
-
-    it('should return the term length of the upper house of the state legislature when a valid state name is passed and the name of the states chamber is passed', () => {
-        const result = stateLegislatureTermLengthByChamber("WI", 'state senate');
-        expect(result).toEqual(4);
-    });
-
-    it('should return the term length of the lower house of the state legislature when a valid state name is passed and the name of the states chamber is passed', () => {
-        const result = stateLegislatureTermLengthByChamber("VA", 'House of Delegates ');
-        expect(result).toEqual(2);
-    });
-
-    it('should throw an error if chamber is not passed as a string.', () => {
+    test.each(errorTermLengthData)('when an invalid state or chamber is passed, the correct error is thrown',(data) =>{
+        let didThrow = false;
         try{
-            let didThrow = false;
-            const result =  stateLegislatureTermLengthByChamber("NotAState", 123);
+            const result =  stateLegislatureTermLengthByChamber(data.input.state, data.input.chamber);
         }catch(error){
             didThrow = true;
-            expect(error).toEqual(Error("number is not a valid type for chamber. Input must be a string."));
+            expect(error).toEqual(data.expectedResult);
         }
         
-        expect(didThrow).toEqual(true);
-    });
-
-    it('should throw an error if an invalid name is passed for chamber', () => {
-        try{
-            let didThrow = false;
-            const result =  stateLegislatureTermLengthByChamber("Ohio", 'typo');
-        }catch(error){
-            didThrow = true;
-            expect(error).toEqual(Error("typo is not a valid state legislative chamber for Ohio. Please enter either 'House of Representatives' (can also use 'House') or 'Senate' (can also use 'Senate')."));
-        }
-        
-        expect(didThrow).toEqual(true);
-    });
-
-    it('should throw an error when an invalid state is passed.', () => {
-        try{
-            let didThrow = false;
-            const result =  stateLegislatureTermLengthByChamber("NotAState", 'house');
-        }catch(error){
-            didThrow = true;
-            expect(error).toEqual(Error("NotAState is not a valid USA state or USA state abbreviation."));
-        }
-        
-        expect(didThrow).toEqual(true);
+        expect(didThrow).toEqual(true);  
     });
 });
+
+
 
