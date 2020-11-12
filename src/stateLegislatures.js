@@ -9,21 +9,21 @@ const stateLegislatureName = (stateName) => {
         lowerHouse: stateDetails.lowerHouse.name
     }
 };
-  
-const stateLegislatureMembers = (stateName) => {
+
+const retrieveLegislativeDetails = (stateName, dataToRetrieve) => {
     const stateDetails = retrieveStateDetails(stateName);
     return {
-        [stateDetails.upperHouse.name]: stateDetails.upperHouse.memberCount,
-        [stateDetails.lowerHouse.name]: stateDetails.lowerHouse.memberCount
+        [stateDetails.upperHouse.name]: stateDetails.upperHouse[dataToRetrieve],
+        [stateDetails.lowerHouse.name]: stateDetails.lowerHouse[dataToRetrieve]
     }
+}
+  
+const stateLegislatureMembers = (stateName) => {
+    return retrieveLegislativeDetails(stateName, 'memberCount');
 };
 
 const stateLegislatureTermLength = (stateName) => {
-    const stateDetails = retrieveStateDetails(stateName);
-    return {
-        [stateDetails.upperHouse.name]: stateDetails.upperHouse.term,
-        [stateDetails.lowerHouse.name]: stateDetails.lowerHouse.term
-    }
+    return retrieveLegislativeDetails(stateName, 'term');
 };
 
 const stateLegislatureTermLengthByChamber = (stateName, chamber) => {
