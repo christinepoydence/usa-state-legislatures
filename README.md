@@ -1,4 +1,6 @@
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![Known Vulnerabilities](https://snyk.io/test/github/christinepoydence/usa-state-legislatures/badge.svg?targetFile=package.json)](https://snyk.io/test/github/christinepoydence/usa-state-legislatures?targetFile=package.json)
+[![Build Status](https://travis-ci.com/christinepoydence/usa-state-legislatures.svg?branch=main)](https://travis-ci.com/christinepoydence/usa-state-legislatures)
 
 # usa-state-legislatures
 

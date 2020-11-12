@@ -1,6 +1,6 @@
 {
   "name": "usa-state-legislatures",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "This package will return various information about a given state legislature- including number of members, term length, and party division.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "coveralls": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "author": "Christine Poydence",
+  "respository": "https://github.com/christinepoydence/usa-state-legislatures.git",
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^3.1.0",
@@ -20,5 +21,10 @@
   },
   "dependencies": {
     "usa-state-validator": "^1.0.2"
-  }
+  },
+  "keywords": [
+    "usa",
+    "state",
+    "legislature"
+  ]
 }
