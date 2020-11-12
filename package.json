@@ -1,6 +1,6 @@
 {
   "name": "usa-state-legislatures",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package will return various information about a given state legislature- including number of members, term length, and party division.",
   "main": "index.js",
   "scripts": {

@@ -2,6 +2,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/christinepoydence/usa-state-legislatures/badge.svg?targetFile=package.json)](https://snyk.io/test/github/christinepoydence/usa-state-legislatures?targetFile=package.json)
 [![Build Status](https://travis-ci.com/christinepoydence/usa-state-legislatures.svg?branch=main)](https://travis-ci.com/christinepoydence/usa-state-legislatures)
 [![Coverage Status](https://coveralls.io/repos/github/christinepoydence/usa-state-legislatures/badge.svg?branch=main)](https://coveralls.io/github/christinepoydence/usa-state-legislatures?branch=main)
+[![Maintainability](https://api.codeclimate.com/v1/badges/11e30c00c4717f60e540/maintainability)](https://codeclimate.com/github/christinepoydence/usa-state-legislatures/maintainability)
 
 # usa-state-legislatures
 
