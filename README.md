@@ -98,9 +98,9 @@ All inputs are case insensitive and will ignore leading/trailing spaces. The inp
 ```javascript
 const {stateLegislatures} = require("usa-state-legislatures")
 
-const ohioLegislatureTermLengths = stateLegislatures.stateLegislatureTermLengthByChamber('OH','house') //returns 33
-const virginiaLegislatureTermLengths = stateLegislatures.stateLegislatureTermLengthByChamber('Virginia','house of delegates') //returns 100
-const nebraskaLegislatureTermLengths = stateLegislatures.stateLegislatureTermLengthByChamber('Nebraska','Legislature') //returns 49
+const ohioLegislatureTermLengths = stateLegislatures.stateLegislatureMembersByChamber('OH','house') //returns 33
+const virginiaLegislatureTermLengths = stateLegislatures.stateLegislatureMembersByChamber('Virginia','house of delegates') //returns 100
+const nebraskaLegislatureTermLengths = stateLegislatures.stateLegislatureMembersByChamber('Nebraska','Legislature') //returns 49
 ```
 
 
