@@ -5,13 +5,14 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 104,
-            "term": 4
-
+            "term": "4"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 35,
-            "term": 4
+            "term": "4",
+            "electionStrategy": "all",
+            "baseYear":"2010"
         },
         "hasTermLimits": false
     },
@@ -21,12 +22,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 40,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 20,
-            "term": 2
+            "term": "4",
+            "electionStrategy": "staggered"
         },
         "hasTermLimits": false
     },
@@ -36,12 +38,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 60,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 30,
-            "term": 2
+            "term": "2",
+            "electionStrategy": "all"
         },
         "hasTermLimits": true
     },
@@ -51,12 +54,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 103,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 35,
-            "term": 4
+            "term": "2-4-4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -66,12 +70,13 @@
         "lowerHouse": {
             "name": "State Assembly",
             "memberCount": 80,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 40,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -81,12 +86,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 65,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 35,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -96,12 +102,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 151,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 36,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -111,12 +118,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 41,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 21,
-            "term": 4
+            "term": "2-4-4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -126,12 +134,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 120,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 40,
-            "term": 4
+            "term": "2-4-4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -141,12 +150,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 180,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 56,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -156,12 +166,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 51,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 25,
-            "term": 4
+            "term": "2-4-4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -171,12 +182,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 70,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 35,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -186,12 +198,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 118,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 59,
-            "term": 4
+            "term": "2-4-4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -201,12 +214,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 100,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 50,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -216,12 +230,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 100,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 50,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -231,12 +246,14 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 125,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 40,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"all",
+            "baseYear":"2008"
         },
         "hasTermLimits": false
     },
@@ -246,12 +263,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 100,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 38,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -261,12 +279,14 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 105,
-            "term": 4
+            "term": "4"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 39,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"all",
+            "baseYear":"2011"
         },
         "hasTermLimits": true
     },
@@ -276,12 +296,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 151,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 35,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": true
     },
@@ -291,12 +312,14 @@
         "lowerHouse": {
             "name": "House of Delegates",
             "memberCount": 141,
-            "term": 4
+            "term": "4"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 47,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"all",
+            "baseYear":"2010"
         },
         "hasTermLimits": false
     },
@@ -306,12 +329,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 160,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 40,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -321,12 +345,14 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 110,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 38,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"all",
+            "baseYear":"2010"
         },
         "hasTermLimits": true
     },
@@ -336,12 +362,14 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 134,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 67,
-            "term": 4
+            "term": "2-4-4",
+            "electionStrategy":"all",
+            "baseYear":"2010"
         },
         "hasTermLimits": false
     },
@@ -351,12 +379,14 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 122,
-            "term":4
+            "term":"4"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 52,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"all",
+            "baseYear":"2007"
         },
         "hasTermLimits": false
     },
@@ -366,12 +396,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 163,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 34,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -381,12 +412,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 100,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 50,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -401,7 +433,8 @@
         "upperHouse": {
             "name": "Legislature",
             "memberCount": 49,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -411,12 +444,13 @@
         "lowerHouse": {
             "name": "Assembly",
             "memberCount": 42,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 21,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -426,12 +460,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 400,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 24,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -441,12 +476,14 @@
         "lowerHouse": {
             "name": "General Assembly",
             "memberCount": 80,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 40,
-            "term": 4
+            "term": "2-4-4",
+            "electionStrategy": "all",
+            "baseYear": "2011"
         },
         "hasTermLimits": false
     },
@@ -456,12 +493,14 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 70,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 42,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"all",
+            "baseYear":"2008"
         },
         "hasTermLimits": false
     },
@@ -471,12 +510,13 @@
         "lowerHouse": {
             "name": "State Assembly",
             "memberCount": 150,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 63,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -486,12 +526,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 120,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 50,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -501,12 +542,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 94,
-            "term": 4
+            "term": "4"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 47,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -516,12 +558,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 99,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 33,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -531,12 +574,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 101,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 48,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": true
     },
@@ -546,12 +590,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 60,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 30,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -561,12 +606,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 203,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 50,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -576,12 +622,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 75,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 38,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -591,12 +638,14 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 124,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 46,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"all",
+            "baseYear": "2008"
         },
         "hasTermLimits": true
     },
@@ -606,12 +655,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 70,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 35,
-            "term": 2
+            "term": "2",
+            "electionStrategy": "all"
         },
         "hasTermLimits": false
     },
@@ -621,12 +671,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 99,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 33,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -636,12 +687,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 150,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 31,
-            "term": 4
+            "term": "2-4-4",
+            "electionStrategy":"staggered"
         },
         "hasTermLimits": false
     },
@@ -651,12 +703,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 75,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 29,
-            "term": 4
+            "term": "4",
+            "electionStrategy": "staggered"
         },
         "hasTermLimits": false
     },
@@ -666,12 +719,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 150,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 30,
-            "term": 2
+            "term": "2",
+            "electionStrategy":"all"
         },
         "hasTermLimits": false
     },
@@ -681,12 +735,14 @@
         "lowerHouse": {
             "name": "House of Delegates",
             "memberCount": 100,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 40,
-            "term": 4
+            "term": "4",
+            "electionStrategy":"all",
+            "baseYear": "2007"
         },
         "hasTermLimits": false
     },
@@ -696,12 +752,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 98,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 49,
-            "term": 4
+            "term": "4",
+            "electionStrategy": "staggered"
         },
         "hasTermLimits": false
     },
@@ -711,12 +768,13 @@
         "lowerHouse": {
             "name": "House of Delegates",
             "memberCount": 100,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 34,
-            "term": 4
+            "term": "4",
+            "electionStrategy": "staggered"
         },
         "hasTermLimits": false
     },
@@ -726,12 +784,13 @@
         "lowerHouse": {
             "name": "State Assembly",
             "memberCount": 99,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "State Senate",
             "memberCount": 33,
-            "term": 4
+            "term": "4",
+            "electionStrategy": "staggered"
         },
         "hasTermLimits": false
     },
@@ -741,12 +800,13 @@
         "lowerHouse": {
             "name": "House of Representatives",
             "memberCount": 60,
-            "term": 2
+            "term": "2"
         },
         "upperHouse": {
             "name": "Senate",
             "memberCount": 30,
-            "term": 4
+            "term": "4",
+            "electionStrategy": "staggered"
         },
         "hasTermLimits": false
     }

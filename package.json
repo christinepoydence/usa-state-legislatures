@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint *.js ",
-    "lintfix": "eslint *.js --fix",
+    "lint": "eslint ./src/*.js ",
+    "lintfix": "eslint ./src/*.js --fix",
     "coverage": "jest --coverage",
     "coveralls": "jest --coverage && coveralls < coverage/lcov.info"
   },

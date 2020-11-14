@@ -29,15 +29,7 @@ describe('doesStateHaveTermLimits', () => {
         expect(result).toEqual(false);
     });
     it('should throw an error when an invalid state is passed.', () => {
-        try{
-            let didThrow = false;
-            const result = doesStateHaveTermLimits('NotAState');
-        }catch(error){
-            didThrow = true;
-            expect(error).toEqual(Error("NotAState is not a valid USA state or USA state abbreviation."));
-        }
-        
-        expect(didThrow).toEqual(true);
+        expect(() => { doesStateHaveTermLimits('NotAState'); }).toThrow(Error("NotAState is not a valid USA state or USA state abbreviation."));
     });
 
 });

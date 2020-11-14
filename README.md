@@ -60,6 +60,50 @@ console.log(ohioLegislatureMembers)
 }
 ```
 
+### totalStateLegislativeMembers(stateName)
+
+This method accepts a valid state as defined above and returns the state's legislative chambers and their member counts.
+It is valid for:
+- All 50 states in the United States of America
+
+```javascript
+const {stateLegislatures} = require("usa-state-legislatures")
+
+const ohioLegislatureMembers = stateLegislatures.totalStateLegislatureMembers('OH') 
+console.log(ohioLegislatureMembers)
+//Would print the following JSON:
+{
+    "House of Representatives": 99, 
+    "Senate": 33,
+    "totalStateLegislativeMembers": 132
+}
+```
+
+### stateLegislatureMembersByChamber(stateName, chamber)
+
+This method accepts a valid state as defined above and a legislative chamber and returns the number of members in that chamber.
+It is valid for:
+- All 50 states in the United States of America
+
+Valid inputs for the chamber include:
+1. 'upper' for the upper legislative chamber (usually the Senate)
+2. 'lower' for the lower legislative chamber (usually the House)
+3. 'senate' for the upper legislative chamber
+4. 'house' for the lower legislative chamber
+5. The actual name of the legislative chamber in that state. (Ex. 'House of Delegates' in Virginia)
+6. *Nebraska has a unicameral legislature. To retrieve results for Nebraska, simply enter 'Legislature' as the chamber.*
+
+All inputs are case insensitive and will ignore leading/trailing spaces. The input must be a string.
+
+```javascript
+const {stateLegislatures} = require("usa-state-legislatures")
+
+const ohioLegislatureTermLengths = stateLegislatures.stateLegislatureTermLengthByChamber('OH','house') //returns 33
+const virginiaLegislatureTermLengths = stateLegislatures.stateLegislatureTermLengthByChamber('Virginia','house of delegates') //returns 100
+const nebraskaLegislatureTermLengths = stateLegislatures.stateLegislatureTermLengthByChamber('Nebraska','Legislature') //returns 49
+```
+
+
 ### stateLegislatureTermLength(stateName)
 
 This method accepts a valid state as defined above and returns the state's legislative chambers and their member's term length in years.
@@ -96,7 +140,7 @@ Valid inputs for the chamber include:
 
 All inputs are case insensitive and will ignore leading/trailing spaces. The input must be a string.
 
-*Important Note: Some states have variable terms for their Senate in order to account for redistricting. This information is not yet incorprated into this package.*
+*Important Note: Some states have variable terms for their Senate in order to account for redistricting. These states return a Senate term length of 2-4-4.*
 
 ```javascript
 const {stateLegislatures} = require("usa-state-legislatures")
