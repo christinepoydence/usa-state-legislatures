@@ -8,6 +8,8 @@
 
 This package returns various information about a given USA state legislature- including the name of each chamber, the number of members, the term length by chamber, and whether the state has imposed term limits.
 
+Note: This repository just provides basic, publicly available information about US State Legislatures. It is not affiliated with any government entity. 
+
 ## Install
 
 ```bash
